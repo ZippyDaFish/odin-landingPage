@@ -10,20 +10,43 @@ nav {
   padding: 20px 0px;
   justify-content: space-between;
 }
+.nav-link {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
 
 .dark-bg {
   background-color: #1F2937;
 }
 .hero {
   font-size: 24px;
+  font-weight: bold;
   color: #F9FAF8;
 }
 .hero-sub {
   font-size: 18px;
+  font-weight: normal;
   color: #E5E7EB;
 }
-.nav-link {
+.main {
   display: flex;
-  width: 50%;
-  justify-content: space-around;
+  margin: auto;
+  padding: 50px 0px;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-div {
+  width: 35%;
+  font-size: 55px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.signup-btn {
+  background-color: #3882F6;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
 }
