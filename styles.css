@@ -19,6 +19,10 @@ nav {
 .dark-bg {
   background-color: #1F2937;
 }
+.white-bg {
+  background-color: white;
+}
+
 .hero {
   font-size: 24px;
   font-weight: bold;
@@ -42,6 +46,17 @@ nav {
   font-size: 55px;
   color: #F9FAF8;
   font-weight: bolder;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
 }
 
 .signup-btn {
