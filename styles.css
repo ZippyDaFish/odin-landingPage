@@ -103,3 +103,22 @@ nav {
   border: none;
   padding: 5px;
 }
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 60%;
+  height: 100px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  border: none;
+}
+.cta {
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.cta .signup-btn {
+  border: 1px solid #F9FAF8;
+}
